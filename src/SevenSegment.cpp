@@ -74,12 +74,3 @@ void sevenSegment(string n , int b)
         cout<<endl;
     }
 }
-
-int main()
-{
-    int font;
-    string n;
-    getline(cin,n);
-    cin>>font;
-    sevenSegment(n,font);
-}
